@@ -32,7 +32,7 @@ await fs.mkdir(ouputDir).catch(() => {})
 console.time('scrape')
 const usernames = await getUsernamesList()
 console.log(`Got ${usernames.length} usernames`)
-await fs.writeFile(new URL(`./usernames.txt`, import.meta.url), usernames.join('\n'))
+await fs.writeFile(new URL(`./htmlScrape_usernames.txt`, import.meta.url), usernames.join('\n'))
 
 const pool = Pool(() => spawn(new Worker('./worker')), { size: 16, concurrency: 8 })
 

@@ -1,6 +1,3 @@
 node_modules
-output
-search
-usernames.txt
-output.json
-output.min.json
+search/
+output*

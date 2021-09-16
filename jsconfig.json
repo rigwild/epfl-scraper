@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "strictFunctionTypes": true
+  },
+  "exclude": ["node_modules", "**/node_modules/*"]
+}
