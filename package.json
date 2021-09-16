@@ -1,0 +1,15 @@
+{
+  "name": "epfl-scraper",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.0.0",
+    "threads": "^1.6.5"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^3.0.3"
+  }
+}
