@@ -2,9 +2,11 @@
   "name": "epfl-scraper",
   "private": true,
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "license": "WTFPL",
   "type": "module",
+  "engines": {
+    "node": ">=14"
+  },
   "dependencies": {
     "node-fetch": "^3.0.0",
     "threads": "^1.6.5"
